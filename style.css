@@ -7,21 +7,24 @@
     --verde-luxury:#00403f;
     --fundo: #ffffe9;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .flexbox-container {
-    width: 100vw;
-    height: 100vh;
-    margin:auto;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-content: center;
-    
 }
 .flexbox-item {
-    flex: 0 1 20%;
     width: 200px;
     margin: 0px;
-    
 }
 .flexbox-item-card-1 {
     width: 200px;
@@ -56,11 +59,13 @@
     text-align: left;
     color: var(--branco-principal);
     font-family: var(--fonte-texto);
+    font-weight: 100;
+    letter-spacing: 1px;
 }
-.botao {
+.botao1 {
     margin: 20px;
     width: 150px;
-    font-family: var(--fonte-texto);
+    font-family: var(--fonte-texto); color: var(--branco-principal);
     border:1px solid #ffffff;
     border-radius:20px;
     display:inline-block;
@@ -68,30 +73,102 @@
     font-size:13px;
     padding:10px 10px 10px 10px;
     size: 40px;
+    background-color: var(--laranja-sedans);
+    letter-spacing: 1px;
 }
+.botao2 {
+    margin: 20px;
+    width: 150px;
+    font-family: var(--fonte-texto); color: var(--branco-principal);
+    border:1px solid #ffffff;
+    border-radius:20px;
+    display:inline-block;
+    cursor:pointer;
+    font-size:13px;
+    padding:10px 10px 10px 10px;
+    size: 40px;
+    background-color: var(--verde-suvs);
+    letter-spacing: 1px;
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+}
+.botao3 {
+    margin: 20px;
+    width: 150px;
+    font-family: var(--fonte-texto); color: var(--branco-principal);
+    border:1px solid #ffffff;
+    border-radius:20px;
+    display:inline-block;
+    cursor:pointer;
+    font-size:13px;
+    padding:10px 10px 10px 10px;
+    size: 40px;
+    background-color: var(--verde-luxury);
+    letter-spacing: 1px;
+    
+}
+.botao1:hover {
+    cursor:pointer;
+    border: 2px solid #ffffff;
+    box-shadow: #ffffff 0px 0px 12px 1px inset,
+                #ffffff 0px 0px 12px 1px;
+                border-radius: 15px;
+                transition-duration: 0,8s;
+    
+}
+.botao2:hover {
+    cursor:pointer;
+    border: 2px solid #ffffff;
+    box-shadow: #ffffff 0px 0px 12px 1px inset,
+                #ffffff 0px 0px 12px 1px;
+                border-radius: 15px;
+                transition-duration: 0,8s;
+}
+.botao3:hover {
+    cursor:pointer;
+    border: 2px solid #ffffff;
+    box-shadow: #ffffff 0px 0px 12px 1px inset,
+                #ffffff 0px 0px 12px 1px;
+                border-radius: 15px;
+                transition-duration: 0,8s;
+                
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-bottom: auto;
+}
+.attribution a { color:var(--verde-luxury); }
 
-@media screen and (min-width: 48rem) {
-    body {
-      display: grid;
+@media screen and (min-width: 500px) {
+    .flexbox-container {
+      display: flex;
       place-items: center;
     }
-    main {
-      max-width: 1120px;
-      display: grid;
-      margin-top: clamp(1rem, calc(16vh - (8rem - 16vh) * 2), 8rem);
-      column-gap: clamp(2rem, 5vw, 4.5rem);
-      grid-template-columns: repeat(2, 1fr);
+    .botao1:hover {
+        cursor: pointer;
+        border: 2px solid #ffffff;
+        box-shadow: #ffffff 0px 0px 12px 1px inset,
+                    #ffffff 0px 0px 12px 1px;
+                    border-radius: 15px;
+                    transition-duration: 0,8s;
     }
-  
-    .header {
-      grid-row: 1/3;
-      text-align: left;
+    .botao2:hover {
+        cursor:pointer;
+        border: 2px solid #ffffff;
+        box-shadow: #ffffff 0px 0px 12px 1px inset,
+                    #ffffff 0px 0px 12px 1px;
+                    border-radius: 15px;
+                    transition-duration: 0,8s;
     }
-  
-    .form {
+    .botao3:hover {
+        cursor:pointer;
+        border: 2px solid #ffffff;
+        box-shadow: #ffffff 0px 0px 12px 1px inset,
+                    #ffffff 0px 0px 12px 1px;
+                    border-radius: 15px;
+                    transition-duration: 0,8s;
+    }
+    .attribution {
       grid-column: 2/3;
     }
-  }
+}
