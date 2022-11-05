@@ -13,32 +13,41 @@
 }
 
 .flexbox-container {
+    grid-area: h;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
     flex-direction: row;
+    margin: auto;
     width: 100%;
     height: 100%;
     justify-content: center;
     align-content: center;
+     
 }
 .flexbox-item {
+    display: flex;
+    flex-direction: row;
     width: 200px;
     margin: 0px;
 }
 .flexbox-item-card-1 {
+    display: grid;
+    flex-direction: row;
     width: 200px;
     height: 400px;
     margin: 0px;
     background-color: var(--laranja-sedans);
 }
 .flexbox-item-card-2 {
+    display: grid;
+    flex-direction: row;
     width: 200px;
     height: 400px;
     margin: 0px;
     background-color: var(--verde-suvs);
 }
 .flexbox-item-card-3 {
+    display: grid;
     width: 200px;
     height: 400px;
     margin: 0px;
@@ -139,10 +148,10 @@
 }
 .attribution a { color:var(--verde-luxury); }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 480px) {
     .flexbox-container {
       display: flex;
-      place-items: center;
+      place-items:inherit;
     }
     .botao1:hover {
         cursor: pointer;

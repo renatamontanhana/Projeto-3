@@ -5,14 +5,15 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ## Table of contents
 
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
   - [Links](#links)
+  - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-  - [Author](#author)
-
-![Captura de Tela 2022-11-03 às 22 45 02](https://user-images.githubusercontent.com/112817008/199867686-bd4644c9-96b4-44bf-aa7c-cc007c278b0a.png)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 
 ### The challenge
@@ -22,10 +23,16 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
+### Screenshot
+
+![](./screenshot.jpg)
+
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/renatamontanhana/Projeto-3.git)
 
+## My process
 
 ### Built with
 
