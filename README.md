@@ -55,6 +55,6 @@ My next project i am thinking in use JS too.
 - [Example resource 1](https://www.youtube.com/watch?v=326-B1avuYo&t=784s) - this is a video of a brazilian lady, excellent explanation about flexbox..
 
 ## Author
-
+- Project Deploy: responsivo3.netlify.app
 - Website - [Renata Montanhana](https://www.linkedin.com/in/renatamontanhana/)
 - Frontend Mentor - [@renatamontanhana](https://www.frontendmentor.io/profile/renatamontanhana)
