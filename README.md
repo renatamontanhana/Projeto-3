@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Captura de Tela 2022-11-03 às 22 45 02](https://user-images.githubusercontent.com/112817008/200091584-b638727c-d625-4ac0-b0bd-733636d78503.png)
 
 
 ### Links
